@@ -3,13 +3,12 @@
 body {
   margin: 0;
   border-top: 5px solid #42b6f3;
-  padding: 50px 0;
+  padding: 80px 40px;
   font-family: "Roboto", sans-serif;
-}
-
-.container {
-  max-width: 900px;
-  padding: 0 30px;
+  color: #818181;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -25,6 +24,29 @@ h1 {
   padding-left: 20px;
 }
 
+article {
+  margin-top: 40px;
+}
+
+article h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #000000a9;
+}
+
+article p {
+  margin: 0 0 20px;
+  vertical-align: baseline;
+}
+
+footer {
+  margin: 50px auto 0;
+  font-size: 13px;
+  font-weight: 100;
+  color: #999;
+  text-align: center;
+}
+
 .author {
   color: #999;
 }
@@ -33,17 +55,100 @@ h1 {
   color: #42b6f3;
 }
 
-article h2 {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-article p {
-  margin: 0;
-}
-
-footer {
-  margin-top: 50px;
-  font-size: 13px;
+.logo {
   color: #999;
+}
+
+.container {
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 400;
+  padding: 0 20px;
+  border-radius: 18px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #e2e2e2;
+  font-size: 13px;
+  background-color: white;
+  color: #818181;
+}
+
+.button:hover {
+  color: #42b6f3;
+}
+
+/*
+.button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #42b6f3;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e1f1ff;
+}*/
+
+ol,
+ul {
+  list-style: none;
+}
+
+.list {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.featured-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.list {
+  border-bottom: none;
+  border-right: 1px solid #e1f1ff;
+  padding: 25px 50px;
+}
+.list:last-child {
+  border-right: none;
+}
+
+.list-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.list-options {
+  margin: 50px 0 25px;
+  color: #42b6f3;
+}
+
+.list-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+.list-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
 }
