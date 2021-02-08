@@ -13,48 +13,55 @@
         <div class="author">by <span>Lory Costa</span></div>
       </header>
 
-      
-      <h1 class="title">Relative, absolute, and fixed positioning</h1>
+      <h1 class="title">Relative, absolute, and fixed positioning in CSS</h1>
       <small>05/02/2021</small>
 
       <article>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-          mollitia, officiis magnam quod unde blanditiis maxime tempore numquam
-          labore. Similique eaque soluta impedit. Eos possimus quas iusto
-          accusantium? Doloremque, accusantium. Animi suscipit illum ea eaque.
-          Nulla fugit dicta natus obcaecati minima velit eos expedita laborum
-          voluptas necessitatibus vel, sint odit saepe et maxime possimus vero
-          quo assumenda culpa!</p>
-          <p>Distinctio asperiores
-          consectetur itaque veniam aspernatur minima id quos ipsum doloremque
-          magnam voluptate ad atque libero alias optio nesciunt, illum
-          dignissimos quisquam adipisci error obcaecati ea fuga! Illo, vitae
-          iure.</p>
-          Fuga enim cum corporis aut dolores. Voluptates sit, sint
-          provident molestias voluptas maiores atque aut in deleniti animi, est
-          facere amet laudantium dolor reprehenderit nesciunt perferendis enim
-          perspiciatis laborum. Nobis? Aliquam quasi temporibus dolorem
-          blanditiis eaque illo magni at deleniti, voluptates quos, explicabo
-          doloremque tempore itaque repellendus natus aut molestiae vero unde
-          asperiores excepturi, consequuntur ducimus? Architecto consectetur
-          sint consequuntur! Qui eligendi fugit hic laudantium unde ullam
-          officia, veniam, omnis tenetur molestiae obcaecati adipisci sit sunt
-          dolores earum quibusdam optio? Sequi veniam cupiditate repellat
-          provident eius quasi inventore, facere repellendus! Doloribus
-          inventore expedita deleniti nisi ut, nostrum dicta doloremque odit,
-          cumque magnam deserunt officiis omnis eos commodi veritatis autem quia
-          necessitatibus sequi! Doloribus harum ut quae explicabo, maiores dolor
-          et. Quisquam dolor amet sapiente minus. Nostrum, nam cum? Magnam quae
-          veritatis, illum odit, delectus ullam dignissimos vero, animi ratione
-          veniam sit esse quam harum quia alias assumenda officia id amet!
-          Consequatur, sunt necessitatibus. Nam labore sed omnis, dolores quos
-          illum blanditiis delectus ipsam natus eaque ratione repellat quas quae
-          exercitationem eum! A eligendi dicta repudiandae nesciunt aliquam
-          tenetur excepturi odio! Esse dolor, provident dolorem voluptates
-          necessitatibus quae quasi distinctio magni dolore aliquid quos iusto
-          quidem suscipit fuga possimus officiis impedit, corporis ab,
-          voluptatem ipsam in! Quas optio officiis dolorem perferendis.
+          To understand the position property, we first need to understand that
+          every web page element is a block. These elements respect the
+          attributes that are set, like width and height.
+        </p>
+
+        <p>
+          There are five values in the position property that allow the
+          positioning of those blocks: relative, absolute, fixed, static and
+          sticky, each of them is useful and the choice of which one to use
+          depends on the desired result. Here we explain the first three values.
+        </p>
+        <img src="../icons/icon4.png" alt="Pisitioning image" />
+        <small>
+          Image source:
+          <a href="https://www.csssolid.com/css-position.html" class="link"
+            >https://www.csssolid.com/css-position.html</a
+          >
+        </small>
+        <br />
+        <br />
+        <h2>Relative</h2>
+        <p>
+          This position is relative to itself. If no attributes are set to the
+          element (top, left, bottom or right), its positioning will not be
+          affected. It will be as if the position was static. However, suppose
+          an attribute is given, for example, top: 20px. In that case, the
+          element will shift its position 20 pixels down from the top, where it
+          would be.
+        </p>
+        <h2>Absolute</h2>
+        <p>
+          This type of positioning allows a page element to be placed precisely
+          where desired. These values will be relative to the next parent
+          element that have relative or absolute positioning. If there is no
+          such parent, it will be placed relative to the page itself. Use the
+          positioning attributes top, left, bottom, and right to set the
+          location.
+        </p>
+        <h2>Fixed</h2>
+        <p>
+          Here the element is positioned relative to the page, not to any other
+          element. So a fixed-positioned element will stay put when the page is
+          scrolled. This positioning might be used for something like a
+          navigation bar that needs to remain visible at all times.
         </p>
       </article>
 

@@ -93,6 +93,11 @@ footer {
   display: block;
 }
 
+article img {
+  width: 100%;
+  display: block;
+}
+
 .sections {
   margin: 0;
   padding: 0;
