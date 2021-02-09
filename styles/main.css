@@ -31,6 +31,7 @@ h1 {
 
 article {
   margin-top: 40px;
+  line-height: 30px;
 }
 
 article h2 {
@@ -49,15 +50,16 @@ footer {
   font-size: 13px;
   font-weight: 100;
   color: #999;
-  text-align: center;
+  text-align: left;
 }
 
 .author {
   color: #999;
 }
 
-.author span {
+.author a {
   color: #42b6f3;
+  text-decoration: none;
 }
 
 .logo {
@@ -81,7 +83,6 @@ footer {
   font-size: 13px;
   background-color: white;
   color: #818181;
-  /* margin: 25px auto 0; */
 }
 
 .button:hover {
@@ -117,16 +118,21 @@ article img {
   color: #666;
 }
 
-/*
+#profile-pic {
+  border-radius: 100%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
 
-.list {
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px 25px;
-  width: 100%;
-  max-width: 960px;
+.columns {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  text-transform: uppercase;
-}*/
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    flex-direction: column-reverse;
+  }
+  #profile-pic {
+    margin: 40px auto 0;
+  }
+}
