@@ -1,0 +1,103 @@
+body {
+  /* font-family: "Rye", cursive; */
+  font-family: sans-serif;
+  background-color: #90cbee;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  margin-right: center;
+  margin-left: center;
+  margin: 0 auto;
+}
+
+td {
+  background-color: #eeeeee91;
+  height: 75px;
+  width: 75px;
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.inflate-an-image {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+}
+
+.dress-a-parent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.dress-an-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#head {
+  z-index: 2;
+}
+
+#body {
+  z-index: 0;
+}
+
+#shoes {
+  z-index: 1;
+}
+
+.ferris-wheel-car {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+#mole {
+  height: 75px;
+  width: 75px;
+}
+
+.restartButton {
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 20px;
+  border-radius: 10px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #e2e2e2;
+  font-size: 13px;
+  background-color: #90cbee;
+  color: black;
+  margin-top: 20px;
+  cursor: pointer;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.restartButton:hover {
+  color: white;
+}
