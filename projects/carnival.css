@@ -1,5 +1,4 @@
 body {
-  /* font-family: "Rye", cursive; */
   font-family: sans-serif;
   background-color: #90cbee;
 }
@@ -44,12 +43,9 @@ div {
 
 .dress-a-parent {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 50%;
   position: relative;
-  top: 0;
-  left: 0;
 }
 
 .dress-an-image {
