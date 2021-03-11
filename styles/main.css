@@ -70,6 +70,10 @@ article img {
   display: block;
 }
 
+article p img {
+  border-radius: 10px;
+}
+
 footer {
   margin: 50px auto 0;
   font-size: 13px;
@@ -103,11 +107,10 @@ footer {
 .sections li img {
   width: 100%;
   display: block;
-  opacity: 0.9;
 }
 
 .sections li img:hover {
-  opacity: 1;
+  opacity: 0.85;
 }
 
 .sections {
